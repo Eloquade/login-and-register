@@ -17,11 +17,10 @@
         <header class="info__header"> 
           <h1 class="info__title">Meet Our Team</h1>
           <span class="info__spacer"></span>
-          <p class="info__subtext">
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Viverra
-            faucibus vitae consectetur nunc. Fames justo, dignissim pretium leo
-            eu ullamcorper tellus. Tellus ac bibendum eu facilisis cursus. Nisl
-            aliquet sit.
+          <p class="info__subtext"> 
+           Our group consists of 5 people, Our leader Lawrence perez,  jheave jimenez,  Donna Macabugao, 
+           Renzo Florendo,  Darell Dumalay. Our group created this for our Quiz in Integrative Programming and Technologies. 
+           This site is for Log in and Quiz Registration.
           </p>
           <?php if(isset($_SESSION['user_id'])) : ?>
             <a href="<?php echo URLROOT; ?>/users/log" class="info__cta">Log out</a>
