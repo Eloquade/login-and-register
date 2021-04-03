@@ -164,17 +164,6 @@ body {
   display: flex;
   flex-direction: column;
 }
-
-.group .card--square {
-  background-image: linear-gradient(
-      180deg,
-      rgba(26, 27, 28, 0) 50%,
-      rgba(26, 27, 28, 0.2) 74.85%,
-      rgba(26, 27, 28, 0.4) 100%
-    ),
-    url(Assets/peter-mckinnon.jpg);
-}
-
 .group .card--large {
   background-image: linear-gradient(
       180deg,
