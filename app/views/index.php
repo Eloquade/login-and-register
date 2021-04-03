@@ -14,16 +14,16 @@
   <body>
     <main class="home">
       <section class="info">
-        <header class="info__header"> 
+        <header class="info__header">
           <h1 class="info__title">Meet Our Team</h1>
           <span class="info__spacer"></span>
-          <p class="info__subtext"> 
-           Our group consists of 5 people, Our leader Lawrence perez,  jheave jimenez,  Donna Macabugao, 
-           Renzo Florendo,  Darell Dumalay. Our group created this for our Quiz in Integrative Programming and Technologies. 
+          <p class="info__subtext">
+           Our group consists of 5 people, Our leader Lawrence perez,  jheave jimenez,  Donna Macabugao,
+           Renzo Florendo,  Darell Dumalay. Our group created this for our Quiz in Integrative Programming and Technologies.
            This site is for Log in and Quiz Registration.
           </p>
           <?php if(isset($_SESSION['user_id'])) : ?>
-            <a href="<?php echo URLROOT; ?>/users/log" class="info__cta">Log out</a>
+            <a href="<?php echo URLROOT; ?>/users/logout" class="info__cta">Log out</a>
           <?php else : ?>
             <a href="<?php echo URLROOT; ?>/users/login" class="info__cta">Log in</a>
           <?php endif; ?>
