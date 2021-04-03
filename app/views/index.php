@@ -49,7 +49,7 @@
                 src="<?php echo URLROOT ?>/static/dist/Assets/darell.jpg"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Darell Dumalay</a>
+                <a class="card__link" href="https://www.facebook.com/darell.dumalay.589/" target="blank">Darell Dumalay</a>
               </h3>
             </header>
           </div>
@@ -62,7 +62,7 @@
                 src="<?php echo URLROOT ?>/static/dist/Assets/Lawrence icon.jpg"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Lawrence Perez</a>
+                <a class="card__link" href="https://www.facebook.com/Perez.lawrence08" target="blank">Lawrence Perez</a>
               </h3>
             </header>
           </div>
@@ -73,7 +73,7 @@
                 src="<?php echo URLROOT ?>/static/dist/Assets/donna icon.jpg"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Donna Macabugao</a>
+                <a class="card__link" href="https://www.facebook.com/donna.macabugao.21" target="blank">Donna Macabugao</a>
               </h3>
             </header>
           </div>
@@ -86,7 +86,7 @@
                 src="<?php echo URLROOT ?>/static/dist/Assets/renzo.jpg"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Renzo Florendo</a>
+                <a class="card__link" href="https://www.facebook.com/groundrenzo"  target="blank">Renzo Florendo</a>
               </h3>
             </header>
           </div>
