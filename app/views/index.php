@@ -36,11 +36,11 @@
             <header class="card__header">
               <img
                 class="card__profile"
-                src="static/dist/Assets/marques-profile.jpg"
+                src="static/dist/Assets/jheave icon.jpg"
                 alt="Marques Brownlee"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Marques Brownlee</a>
+                <a class="card__link" href="#">Jheave Jimenez</a>
               </h3>
             </header>
           </div>
@@ -48,11 +48,11 @@
             <header class="card__header">
               <img
                 class="card__profile"
-                src="static/dist/Assets/tmo-profile.jpg"
+                src="static/dist/Assets/darell.jpg"
                 alt="Tech Me Out"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Tech Me Out</a>
+                <a class="card__link" href="#">Darell Dumalay</a>
               </h3>
             </header>
           </div>
@@ -62,11 +62,11 @@
             <header class="card__header">
               <img
                 class="card__profile"
-                src="static/dist/Assets/ijustin-profile.jpg"
+                src="static/dist/Assets/Lawrence icon.jpg"
                 alt="Justine Ezarik"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Justine Ezarik</a>
+                <a class="card__link" href="#">Lawrence Perez</a>
               </h3>
             </header>
           </div>
@@ -74,11 +74,11 @@
             <header class="card__header">
               <img
                 class="card__profile"
-                src="static/dist/Assets/peter-profile.jpg"
+                src="static/dist/Assets/donna icon.jpg"
                 alt="Peter McKinnon"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Peter McKinnon</a>
+                <a class="card__link" href="#">Donna Macabugao</a>
               </h3>
             </header>
           </div>
@@ -88,11 +88,11 @@
             <header class="card__header">
               <img
                 class="card__profile"
-                src="static/dist/Assets/ijustin-profile.jpg"
+                src="static/dist/Assets/renzo.jpg"
                 alt="Justine Ezarik"
               />
               <h3 class="card__title">
-                <a class="card__link" href="#">Justine Ezarik</a>
+                <a class="card__link" href="#">Renzo Florendo</a>
               </h3>
             </header>
           </div>
