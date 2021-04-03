@@ -9,6 +9,8 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
       rel="stylesheet"
     />
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="<?php echo URLROOT ?>/static/dist/tailwind.css">
     <title>Meet Our Team</title>
   </head>
   <body>
@@ -24,6 +26,20 @@
           </p>
           <?php if(isset($_SESSION['user_id'])) : ?>
             <a href="<?php echo URLROOT; ?>/users/logout" class="info__cta">Log out</a>
+            <div class="w3-container">
+              <div id="id01" class="w3-modal">
+                <div class="w3-modal-content">
+                  <div class="w3-container">
+                    <h1 class="my-8 font-display font-bold text-3xl text-gray-700 text-center">
+                      Please Complete Your Registration
+                    </h1>
+                    <p class="my-8 font-display font-bold text-3xl text-primarycolor text-center">
+                      <a href="<?php echo URLROOT; ?>/registrationForm" >Registration Details</a>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
           <?php else : ?>
             <a href="<?php echo URLROOT; ?>/users/login" class="info__cta">Log in</a>
           <?php endif; ?>
@@ -93,5 +109,13 @@
         </div>
       </section>
     </main>
+    <script>
+       var showModal = function() {
+        document.getElementById('id01').style.display='block'
+      }
+      window.addEventListener('DOMContentLoaded', () => {
+        setTimeout(showModal, 1000);
+      });
+    </script>
   </body>
 </html>
