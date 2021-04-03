@@ -7,6 +7,6 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css"
     />
-    <link rel="stylesheet" href="<?php echo URLROOT ?>/public/static/dist/tailwind.css">
+    <link rel="stylesheet" href="<?php echo URLROOT ?>/static/dist/tailwind.css">
   </head>
   <body>

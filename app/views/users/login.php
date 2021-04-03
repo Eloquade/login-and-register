@@ -1,14 +1,14 @@
 <?php
    require APPROOT . '/views/includes/head.php';
 ?>
-<img src="<?php echo URLROOT ?>/public/static/dist/Assets/wave.png" class="fixed hidden lg:block inset-0 h-full" style="z-index: -1;"/>
+<img src="<?php echo URLROOT ?>/static/dist/Assets/wave.png" class="fixed hidden lg:block inset-0 h-full" style="z-index: -1;"/>
 <div class="w-screen h-screen flex flex-col justify-center items-center lg:grid lg:grid-cols-2">
   <img
-    src="<?php echo URLROOT ?>/public/static/dist/Assets/unlock.svg"
+    src="<?php echo URLROOT ?>/static/dist/Assets/unlock.svg"
     class="hidden lg:block w-1/2 hover:scale-150 transition-all duration-500 transform mx-auto"
   />
   <form class="flex flex-col justify-center items-center w-1/2" id="register-form" action="<?php echo URLROOT; ?>/users/login" method ="POST">
-    <img src="<?php echo URLROOT ?>/public/static/dist/Assets/avatar.svg" class="w-32" />
+    <img src="<?php echo URLROOT ?>/static/dist/Assets/avatar.svg" class="w-32" />
     <h2 class="my-8 font-display font-bold text-3xl text-gray-700 text-center">
      Welcome
     </h2>
