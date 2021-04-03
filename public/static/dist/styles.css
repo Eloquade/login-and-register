@@ -121,7 +121,7 @@ body {
       rgba(26, 27, 28, 0.2) 74.85%,
       rgba(26, 27, 28, 0.4) 100%
     ),
-    url(Assets/marques-brownlee.jpg);
+    url(Assets/jheave.jpg);
 }
 
 .group-one .card--large {
@@ -131,7 +131,7 @@ body {
       rgba(26, 27, 28, 0.2) 74.85%,
       rgba(26, 27, 28, 0.4) 100%
     ),
-    url(Assets/tech-me-out.jpg);
+    url(Assets/Darell\ icon.jpg);
 }
 
 .group-two {
@@ -147,7 +147,7 @@ body {
       rgba(26, 27, 28, 0.2) 74.85%,
       rgba(26, 27, 28, 0.4) 100%
     ),
-    url(Assets/peter-mckinnon.jpg);
+    url(Assets/donna.jpg);
 }
 
 .group-two .card--large {
@@ -157,7 +157,7 @@ body {
       rgba(26, 27, 28, 0.2) 74.85%,
       rgba(26, 27, 28, 0.4) 100%
     ),
-    url(Assets/ijustine.jpg);
+    url(Assets/lawrence-perez.jpg);
 }
 .group {
   grid-column: 3 / span 1;
@@ -182,7 +182,7 @@ body {
       rgba(26, 27, 28, 0.2) 74.85%,
       rgba(26, 27, 28, 0.4) 100%
     ),
-    url(Assets/ijustine.jpg);
+    url(Assets/Renzo\ 1.jpg);
 }
 .card {
   margin: 8px;
