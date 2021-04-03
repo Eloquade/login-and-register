@@ -9,12 +9,12 @@
       href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&display=swap"
       rel="stylesheet"
     />
-    <title>Support YouTube Creators</title>
+    <title>Meet Our Team</title>
   </head>
   <body>
     <main class="home">
       <section class="info">
-        <header class="info__header">
+        <header class="info__header"> 
           <h1 class="info__title">Meet Our Team</h1>
           <span class="info__spacer"></span>
           <p class="info__subtext">
@@ -23,7 +23,11 @@
             eu ullamcorper tellus. Tellus ac bibendum eu facilisis cursus. Nisl
             aliquet sit.
           </p>
-          <a href="<?php echo URLROOT; ?>/users/login" class="info__cta">Log in</a>
+          <?php if(isset($_SESSION['user_id'])) : ?>
+            <a href="<?php echo URLROOT; ?>/users/log" class="info__cta">Log out</a>
+          <?php else : ?>
+            <a href="<?php echo URLROOT; ?>/users/login" class="info__cta">Log in</a>
+          <?php endif; ?>
         </header>
       </section>
       <section class="cards">
@@ -95,6 +99,5 @@
         </div>
       </section>
     </main>
-    <script type="text/javascript" src="./functions.js"></script>
   </body>
 </html>

@@ -37,14 +37,14 @@ class Users extends Controller {
 
             //Validate username on letters/numbers
             if (empty($data['username'])) {
-                $data['usernameError'] = 'Please enter username.';
+                $data['usernameError'] = 'Please enter username!';
             } elseif (!preg_match($nameValidation, $data['username'])) {
                 $data['usernameError'] = 'Name can only contain letters and numbers.';
             }
 
             //Validate email
             if (empty($data['email'])) {
-                $data['emailError'] = 'Please enter email address.';
+                $data['emailError'] = 'Please enter email address!';
             } elseif (!filter_var($data['email'], FILTER_VALIDATE_EMAIL)) {
                 $data['emailError'] = 'Please enter the correct format.';
             } else {
@@ -56,7 +56,7 @@ class Users extends Controller {
 
            // Validate password on length, numeric values,
             if(empty($data['password'])){
-              $data['passwordError'] = 'Please enter password.';
+              $data['passwordError'] = 'Please enter password!';
             } elseif(strlen($data['password']) < 6){
               $data['passwordError'] = 'Password must be at least 8 characters';
             } elseif (preg_match($passwordValidation, $data['password'])) {
@@ -65,10 +65,10 @@ class Users extends Controller {
 
             //Validate confirm password
              if (empty($data['confirmPassword'])) {
-                $data['confirmPasswordError'] = 'Please enter password.';
+                $data['confirmPasswordError'] = 'Please enter password!';
             } else {
                 if ($data['password'] != $data['confirmPassword']) {
-                $data['confirmPasswordError'] = 'Passwords do not match, please try again.';
+                $data['confirmPasswordError'] = 'Passwords do not match, please try again!';
                 }
             }
 
@@ -112,12 +112,12 @@ class Users extends Controller {
             ];
             //Validate username
             if (empty($data['username'])) {
-                $data['usernameError'] = 'Please enter a username.';
+                $data['usernameError'] = 'Please enter a username!';
             }
 
             //Validate password
             if (empty($data['password'])) {
-                $data['passwordError'] = 'Please enter a password.';
+                $data['passwordError'] = 'Please enter a password!';
             }
 
             //Check if all errors are empty
