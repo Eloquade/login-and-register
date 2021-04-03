@@ -7,7 +7,7 @@
   font-family: 'Montserrat', sans-serif;
 }
 body{
-  background: #fec107;
+  background: darkcyan;
   padding: 0 10px;
 }
 .wrapper{
@@ -136,7 +136,7 @@ body{
   display: none;
 }
 .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark{
-  background: #fec107;
+  background: darkcyan ;
 }
 
 .wrapper .form .inputfield .check input[type="checkbox"]:checked ~ .checkmark:before{
@@ -146,9 +146,9 @@ body{
 .wrapper .form .inputfield .btn{
   width: 100%;
    padding: 8px 10px;
-  font-size: 15px; 
+  font-size: 15px;
   border: 0px;
-  background:  #fec107;
+  background:  darkcyan;
   color: #fff;
   cursor: pointer;
   border-radius: 3px;
@@ -156,7 +156,7 @@ body{
 }
 
 .wrapper .form .inputfield .btn:hover{
-  background: #ffd658;
+  background: darkcyan;
 }
 
 .wrapper .form .inputfield:last-child{
