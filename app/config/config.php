@@ -15,7 +15,11 @@
     define('APPROOT', dirname(dirname(__FILE__)));
 
     //URLROOT (Dynamic links)
-    define('URLROOT', 'https://localhost/login-register');
+
+    // define('URLROOT', 'https://localhost/login-register');
+
+    define('URLROOT', 'https://login-and-register.herokuapp.com);
+
 
     //Sitename
     define('SITENAME', 'Login & Register');
