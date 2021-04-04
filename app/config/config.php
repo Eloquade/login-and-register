@@ -18,8 +18,8 @@
 
     // define('URLROOT', 'https://localhost/login-register');
 
-    define('URLROOT', 'https://login-and-register.herokuapp.com);
+    define('URLROOT', 'https://login-and-register.herokuapp.com');
 
-
-    //Sitename
     define('SITENAME', 'Login & Register');
+
+    
