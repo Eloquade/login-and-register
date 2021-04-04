@@ -20,6 +20,6 @@
 
     define('URLROOT', 'https://login-and-register.herokuapp.com');
 
-
-    //Sitename
     define('SITENAME', 'Login & Register');
+
+    
