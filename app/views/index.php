@@ -75,7 +75,7 @@
             <header class="card__header">
               <img
                 class="card__profile"
-                src="<?php echo URLROOT ?>/static/dist/Assets/Lawrence icon.jpg"
+                src="<?php echo URLROOT ?>/static/dist/Assets/lawrence-icon.jpg"
               />
               <h3 class="card__title">
                 <a class="card__link" href="https://www.facebook.com/Perez.lawrence08" target="blank">Lawrence Perez</a>
