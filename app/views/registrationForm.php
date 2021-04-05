@@ -8,64 +8,65 @@
 </head>
   <body>
   <form action = "<?php echo URLROOT; ?>/index" method ='POST'>
-  <div class="wrapper">
-      <div class="title">
-        Registration Form
-      </div>
-      <div class="form">
-         <div class="inputfield">
-            <label>First Name</label>
-            <input type="text" name="FirstName" class="input" autocomplete="off">
-         </div>
-          <div class="inputfield">
-            <label>Last Name</label>
-            <input type="text" name="LastName" class="input" autocomplete="off">
-         </div>
-         <div class="inputfield">
-            <label>Country</label>
-            <input type="text" name="County"class="input" autocomplete="off">
-         </div>
-        <div class="inputfield">
-            <label>Age</label>
-            <input type="number" name = "Age" class="input" autocomplete="off">
-         </div>
-          <div class="inputfield">
-            <label>Gender</label>
-            <div class="custom_select">
-              <select>
-                <option name = "Gender" value="">Select</option>
-                <option name = "Gender" value="male">Male</option>
-                <option name = "Gender" value="female">Female</option>
-              </select>
-            </div>
-         </div>
-          <div class="inputfield">
-            <label>Email</label>
-            <input type="email" name = "EmailAddress" class="input" autocomplete="off">
-         </div>
-        <div class="inputfield">
-            <label>Phone Number</label>
-            <input type="number" name = "PhoneNumber" class="input" autocomplete="off">
-         </div>
-        <div class="inputfield">
-            <label>Address</label>
-            <textarea class="textarea" name = "Address" autocomplete="off"></textarea>
-         </div>
-        <div class="inputfield">
-            <label>Postal Code</label>
-            <input type="number" name = "PostalCode" class="input" autocomplete="off">
-         </div>
-        <div class="inputfield terms">
-            <label class="check">
-              <input type="checkbox">
-              <span class="checkmark"></span>
-            </label>
-            <p>Agreed to terms and conditions</p>
-         </div>
-        <div class="inputfield">
-          <input type="submit" id="submit" value="Submit" class="btn">
+    <div class="wrapper">
+        <div class="title">
+          Registration Form
         </div>
-      </div>
-  </div>
+        <div class="form">
+           <div class="inputfield">
+              <label>First Name</label>
+              <input type="text" name="FirstName" class="input" autocomplete="off">
+           </div>
+            <div class="inputfield">
+              <label>Last Name</label>
+              <input type="text" name="LastName" class="input" autocomplete="off">
+           </div>
+           <div class="inputfield">
+              <label>Country</label>
+              <input type="text" name="County"class="input" autocomplete="off">
+           </div>
+          <div class="inputfield">
+              <label>Age</label>
+              <input type="number" name = "Age" class="input" autocomplete="off">
+           </div>
+            <div class="inputfield">
+              <label>Gender</label>
+              <div class="custom_select">
+                <select>
+                  <option name = "Gender" value="">Select</option>
+                  <option name = "Gender" value="male">Male</option>
+                  <option name = "Gender" value="female">Female</option>
+                </select>
+              </div>
+           </div>
+            <div class="inputfield">
+              <label>Email</label>
+              <input type="email" name = "EmailAddress" class="input" autocomplete="off">
+           </div>
+          <div class="inputfield">
+              <label>Phone Number</label>
+              <input type="number" name = "PhoneNumber" class="input" autocomplete="off">
+           </div>
+          <div class="inputfield">
+              <label>Address</label>
+              <textarea class="textarea" name = "Address" autocomplete="off"></textarea>
+           </div>
+          <div class="inputfield">
+              <label>Postal Code</label>
+              <input type="number" name = "PostalCode" class="input" autocomplete="off">
+           </div>
+          <div class="inputfield terms">
+              <label class="check">
+                <input type="checkbox">
+                <span class="checkmark"></span>
+              </label>
+              <p>Agreed to terms and conditions</p>
+           </div>
+          <div class="inputfield">
+            <input type="submit" id="submit" value="Submit" class="btn">
+          </div>
+        </div>
+    </div>
+  </form>  
   </body>
 </html>
