@@ -26,6 +26,7 @@
           </p>
           <?php if(isset($_SESSION['user_id'])) : ?>
             <a href="<?php echo URLROOT; ?>/users/logout" class="info__cta">Log out</a>
+
             <div class="w3-container">
               <div id="id01" class="w3-modal">
                 <div class="w3-modal-content">
@@ -34,7 +35,7 @@
                       Please Complete Your Registration
                     </h1>
                     <p class="my-8 font-display font-bold text-3xl text-primarycolor text-center">
-                      <a href="<?php echo URLROOT; ?>/registrationForm" >Registration Details</a>
+                      <?php require_once APPROOT . '/views/registrationForm.php'; ?></a>
                     </p>
                   </div>
                 </div>
@@ -109,8 +110,8 @@
         </div>
       </section>
     </main>
-    <!-- Beta test not finish  -->
-    <!-- <script>
+
+    <script>
        var showModal = function() {
         document.getElementById('id01').style.display='block'
       }
