@@ -115,7 +115,7 @@
         document.getElementById('id01').style.display='block'
       }
       window.addEventListener('DOMContentLoaded', () => {
-        setTimeout(showModal, 3000);
+        setTimeout(showModal, 2000);
       });
     </script>
   </body>
