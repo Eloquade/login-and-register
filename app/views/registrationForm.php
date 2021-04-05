@@ -49,7 +49,7 @@
            </div>
           <div class="inputfield">
               <label>Address</label>
-              <textarea class="textarea" name = "Address" autocomplete="off"></textarea>
+              <textarea class="textarea" name = "Address" required autocomplete="off"></textarea>
            </div>
           <div class="inputfield">
               <label>Postal Code</label>
