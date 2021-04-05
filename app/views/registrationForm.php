@@ -41,7 +41,7 @@
          </div>
           <div class="inputfield">
             <label>Email</label>
-            <input type="text" name = "EmailAddress" class="input">
+            <input type="text" name = "EmailAddress" class="input" autocomplete="off">
          </div>
         <div class="inputfield">
             <label>Phone Number</label>
