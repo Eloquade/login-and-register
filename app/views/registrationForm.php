@@ -53,7 +53,7 @@
          </div>
         <div class="inputfield">
             <label>Postal Code</label>
-            <input type="text" name = "PostalCode" class="input">
+            <input type="text" name = "PostalCode" class="input" autocomplete="off">
          </div>
         <div class="inputfield terms">
             <label class="check">
