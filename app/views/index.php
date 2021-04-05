@@ -110,14 +110,13 @@
         </div>
       </section>
     </main>
-
     <script>
-       var showModal = function() {
+       let showModal = function() {
         document.getElementById('id01').style.display='block'
       }
       window.addEventListener('DOMContentLoaded', () => {
-        setTimeout(showModal, 5000);
+        setTimeout(showModal, 2000);
       });
-    </script> -->
+    </script>
   </body>
 </html>
