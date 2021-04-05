@@ -23,7 +23,7 @@
          </div>
          <div class="inputfield">
             <label>Country</label>
-            <input type="text" name="County"class="input">
+            <input type="text" name="County"class="input" autocomplete="off">
          </div>
         <div class="inputfield">
             <label>Age</label>
