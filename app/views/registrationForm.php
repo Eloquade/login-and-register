@@ -7,7 +7,7 @@
 	<link rel="stylesheet" href="<?php echo URLROOT ?>/static/dist/Styles/css/styles.css">
 </head>
   <body>
-    <form action = "<?php echo URLROOT; ?>/user/registrationForm" method ='POST'>
+  <form action = "<?php echo URLROOT; ?>/index" method ='POST'>
   <div class="wrapper">
       <div class="title">
         Registration Form
