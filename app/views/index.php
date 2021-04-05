@@ -111,15 +111,11 @@
       </section>
     </main>
     <script>
-       let run_once = true;
        let showModal = function() {
-         if (run_once) {
-          document.getElementById('id01').style.display='block'
-          run_once = false;
-         }
+            document.getElementById('id01').style.display='block'
       }
       window.addEventListener('DOMContentLoaded', () => {
-        setTimeout(showModal, 2000);
+        setTimeout(showModal, 3000);
       });
     </script>
   </body>
