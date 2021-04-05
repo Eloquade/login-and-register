@@ -15,7 +15,7 @@
         <div class="form">
            <div class="inputfield">
               <label>First Name</label>
-              <input type="text" name="FirstName" class="input" autocomplete="off">
+              <input type="text" name="FirstName"  required class="input" autocomplete="off">
            </div>
             <div class="inputfield">
               <label>Last Name</label>
