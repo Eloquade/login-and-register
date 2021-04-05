@@ -19,7 +19,7 @@
            </div>
             <div class="inputfield">
               <label>Last Name</label>
-              <input type="text" name="LastName" class="input" autocomplete="off">
+              <input type="text" name="LastName" required class="input" autocomplete="off">
            </div>
            <div class="inputfield">
               <label>Country</label>
