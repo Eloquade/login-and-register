@@ -16,7 +16,7 @@
 
     //URLROOT (Dynamic links)
 
-    define('URLROOT', 'http ://localhost/login-and-register');
+    define('URLROOT', 'http://localhost/login-and-register');
 
     // define('URLROOT', 'https://login-and-register.herokuapp.com');
 
