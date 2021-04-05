@@ -1,8 +1,8 @@
 # [Log-in-Register-Form Using MVC Framework](https://login-and-register.herokuapp.com)
 ## Feature
 - A simple CRUD
-- log in and log out
-- register
+- Log in and Log out
+- Register
 ***
 ### [Click here to view the website](https://login-and-register.herokuapp.com)
 
@@ -17,3 +17,8 @@
 
 ![image](https://user-images.githubusercontent.com/40889884/113481505-83c69180-94cc-11eb-8f0b-8a9594843e2f.png)
 
+![image](https://user-images.githubusercontent.com/40889884/113532290-91c7ff80-95fd-11eb-8c3c-ef29fa748d43.png)
+
+![image](https://user-images.githubusercontent.com/40889884/113532303-9c829480-95fd-11eb-93b4-ad1773e91ed8.png)
+
+![image](https://user-images.githubusercontent.com/40889884/113532272-87a60100-95fd-11eb-9a4b-243dbce30966.png)
