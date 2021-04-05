@@ -27,7 +27,7 @@
          </div>
         <div class="inputfield">
             <label>Age</label>
-            <input type="text" name = "Age" class="input" autocomplete="off">
+            <input type="number" name = "Age" class="input" autocomplete="off">
          </div>
           <div class="inputfield">
             <label>Gender</label>
