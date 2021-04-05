@@ -16,10 +16,10 @@
 
     //URLROOT (Dynamic links)
 
-    // define('URLROOT', 'https://localhost/login-register');
+    // define('URLROOT', 'https://localhost/login-and-register');
 
     define('URLROOT', 'https://login-and-register.herokuapp.com');
 
     define('SITENAME', 'Login & Register');
 
-    
+

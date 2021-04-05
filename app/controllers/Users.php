@@ -158,4 +158,37 @@ class Users extends Controller {
         unset($_SESSION['email']);
         header('location:' . URLROOT . '/users/login');
     }
+    public function registrationForm(){
+        $data = [
+            'firstname' => '',
+            'lastname' => '',
+            'country' => '',
+            'age' => '',
+            'gender' => '',
+            'email' => '',
+            'phonenumber' => '',
+            'address' => '',
+            'postalcode' => ''
+        ];
+         if($_SERVER['REQUEST_METHOD'] == 'POST'){
+        // Process form
+        // Sanitize POST data
+        $_POST = filter_input_array(INPUT_POST, FILTER_SANITIZE_STRING);
+
+              $data = [
+                'firstname' => trim($_POST['firstname']),
+                'lastname' => trim($_POST['lastname']),
+                'country' => trim($_POST['country']),
+                'age' => trim($_POST['age']),
+                'gender' => trim($_POST['gender']),
+                'emailaddress' => trim($_POST['emailaddress']),
+                'phonenumber' => trim($_POST['phonenumber']),
+                'address' => trim($_POST['address']),
+                'postalcode' => trim($_POST['postalcode'])
+            ];
+             header('location:' . URLROOT . '/users/index');
+             $this->view('users/registerForm', $data);
+    }
+
+}
 }
